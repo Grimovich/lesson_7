@@ -1,19 +1,23 @@
 * {
   box-sizing: border-box;
 }
+
 .body {
   margin: 0;
 }
+
 .body--blocks {
   padding: 50px;
   background: fixed;
   background-color: #0d420b9f;
 }
+
 .body--menu {
   padding: 50px;
   background: fixed;
   background-color: #e4ae1a;
 }
+
 .background {
   position: fixed;
   top: 0;
@@ -23,6 +27,7 @@
   overflow: hidden;
   z-index: -1;
 }
+
 .background-img {
   position: absolute;
   top: 0;
@@ -32,6 +37,7 @@
   width: auto;
   height: auto;
 }
+
 .container {
   height: 200px;
   background-color: #cccccc;
@@ -40,78 +46,93 @@
   margin: 0 30px 60px 0;
   position: relative;
 }
+
 .container--sm {
   width: 200px;
 }
+
 .container--lg {
   width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .block {
   height: 100px;
   width: 100px;
   background-color: #555555;
   position: absolute;
 }
+
 .block--1 {
   background-color: green;
   top: 0;
   left: 0;
 }
+
 .block--2 {
   background-color: rgb(12, 12, 113);
   top: 0;
   left: 100px;
 }
+
 .block--3 {
   background-color: rgb(152, 101, 7);
   top: 100px;
   left: 0;
 }
+
 .block--4 {
   background-color: rgb(103, 30, 68);
   top: 100px;
   left: 100px;
 }
+
 .block--5 {
   background-color: rgb(18, 27, 127);
   bottom: -50px;
   left: -50px;
   z-index: -1;
 }
+
 .block--6 {
   background-color: rgb(18, 27, 127);
   bottom: -50px;
   left: calc(50% - 50px);
   z-index: 1;
 }
+
 .block--7 {
   background-color: rgb(18, 27, 127);
   bottom: -50px;
   right: -50px;
   z-index: -1;
 }
+
 .block-lg {
   position: absolute;
   background-color: #a21010;
   width: calc(100% - 60px);
   height: calc(100% - 60px);
 }
+
 .menu {
   padding: 0;
   display: flex;
   justify-content: space-evenly;
 }
+
 .menu--frontpage {
   height: 95vh;
   align-items: center;
 }
+
 .menu__item {
   flex-basis: 15%;
   list-style: none;
 }
+
 .menu__item--frontpage {
   height: 26%;
   display: flex;
@@ -122,36 +143,45 @@
   outline: 5px dashed #b3b1d1;
   outline-offset: -5px;
 }
+
 .menu__item--frontpage a {
   text-decoration: none;
   color: #3b33adca;
   font-weight: bolder;
 }
+
 .menu__item-container {
   text-align: center;
   margin: 0 auto;
 }
+
 .menu__item-figcaption {
   padding: 20px;
   background-color: darkred;
 }
+
 .menu__item-link {
   font-size: 25px;
   color: white;
 }
+
 .menu__item-container:hover {
   outline: 2px solid rgb(57, 57, 57);
 }
+
 .menu__item-container:hover .menu__item-figcaption {
   background-color: rgb(215, 215, 79);
 }
+
 .menu__item-container:hover .menu__item-link {
   color: black;
 }
+
 .menu__item-image {
   width: 75%;
   padding: 20px;
 }
+
 .footer {
   height: 10vh;
   width: 100%;
@@ -161,4 +191,8 @@
   text-align: center;
   font-size: 40px;
   text-transform: uppercase;
+}
+
+.button {
+  color: #000000;
 }
